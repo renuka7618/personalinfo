@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(197, 202, 186);
+    color: #333;
+}
+
+/* Container for Profile */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Profile Header */
+header {
+    margin-top: 50px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Profile Name Styling */
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Profile Subtitle */
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Social Links Section */
+.social-links {
+    margin: 30px 0;
+}
+
+/* Styling for Social Icons */
+.social-icon {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+/* About Me Section */
+.about {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* My Skills Section */
+.my-skills {
+    margin-top: 50px;
+}
+
+.my-skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.my-skills li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .profile-pic {
+    border: 3px solid #fff;
+}
+
+.dark-mode .social-icon img {
+    filter: invert(1);
+}
+
+.dark-mode footer {
+    color: #ccc;
+}
